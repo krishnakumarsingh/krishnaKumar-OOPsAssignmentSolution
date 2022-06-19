@@ -6,7 +6,8 @@ OOPS
 Problem Statement
 
 → The assignment will contain 4 departments as four different object classes
-                i) Super Department
+                
+                i) Super Department
                ii) Admin Department
                iii) Hr Department
                iv) Tech Department
@@ -14,7 +15,8 @@ Problem Statement
 → Super Department class will be the superclass and all other departments must extend it.
 
 → Super department will contain 4 methods of return type String and will not accept any parameter
-               i)  departmentName 
+               
+               i)  departmentName 
               ii)  getTodaysWork  
               iii) getWorkDeadline
               iv) isTodayAHoliday
@@ -25,7 +27,8 @@ getWorkDeadline will return “ Nil “
 isTodayAHoliday will return “ Today is not a holiday”
 
 → Admin department will contain 3 methods of return type String and will not accept any parameter
-               i)  departmentName 
+               
+               i)  departmentName 
               ii)  getTodaysWork  
               iii) getWorkDeadline
               
@@ -34,7 +37,8 @@ getTodaysWork will return “Complete your documents Submission”
 getWorkDeadline will return “ Complete by EOD “
  
 → Hr department will contain 4 methods of return type String and will not accept any parameter
-               i)  departmentName 
+               
+               i)  departmentName 
               ii)  getTodaysWork  
               iii) getWorkDeadline
               iv) doActivity
@@ -45,7 +49,8 @@ getWorkDeadline will return “ Complete by EOD “
 doActivity “team Lunch”
 
 → Tech department will contain 4 methods of return type String and will not accept any parameter
-               i)  departmentName 
+               
+               i)  departmentName 
               ii)  getTodaysWork  
               iii) getWorkDeadline
               iv) getTechStackInformation
@@ -61,20 +66,20 @@ getTechStackInformation will return “core Java”
   ----------------------------------------------------------------------------------------------------------------  
 Expected Output
 
- Welcome to Admin Department
+Welcome to Admin Department
 Complete your documents submission
 Complete by EOD 
 Today is not a Holiday
 
- Welcome to HR Department
+Welcome to HR Department
 team Lunch
 Fill today’s timesheet and mark your attendance
 Complete by EOD 
 Today is not a Holiday
 
 
- Welcome to Tech Department
+Welcome to Tech Department
 Complete coding of Module 1
 Complete by EOD 
- Core Java 
+Core Java 
 Today is not a Holiday
